@@ -2,19 +2,20 @@
   "efebo": {
     "titulo": "Efebo de Subiaco",
     "tecnica": "Calco en Terracota",
-    "dimensiones": "00cm x 00cm x 00cm",
-    "ubicacion": "Facultad de Artes (UNLP)",
+    "dimensiones": "136cm x 110cm x 40cm",
+    "ubicacion": "Pasillo Calle 61, Planta Baja, Sede Central de la Facultad de Artes (UNLP)",
     "autor": "Manifattura Di Signa",
     "descripcion": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu sagittis est, et fermentum urna. Sed non luctus nunc.",
-      "Integer in diam sed purus malesuada egestas. Proin vehicula vitae risus a efficitur."
+      "El Efebo de Subiaco (tambien denominado como el joven de Subiaco) es una escultura de un hombre joven adolescente encontrada en la Villa Sublaquensis de Nerón en Subiaco en el valle superior del río Aniene, Lazio, Italia. La escultura en mármol sin cabeza es una copia de un bronce griego perdido del siglo I o siglo V o IV a. C. La escultura se conserva en el Palacio Massimo alle Terme, junto a las Termas de Diocleciano de Roma.",
+      "El atleta se muestra en medio de un paso, en una convención arcaica de la carrera. Su brazo izquierdo desaparecido rozaría la rodilla derecha. Su brazo derecho se extiende hacia arriba y adelante. Sus pierna derecha avanza con una rodilla doblada. La rodilla izquierda no toca el suelo, ni soporta el peso de su torso torcido.",
+      "En el Área de Museo, Exposiciones y Conservación del Patrimonio de la Facultad de Artes de la Universidad Nacional de La Plata, la pieza en terracota producida por Manifattura Di Signa se conserva casi en su totalidad, faltando solamente su hombro derecho."
     ]
   },
   "fauno": {
     "titulo": "Fauno Danzante",
     "tecnica": "Calco en Terracota",
-    "dimensiones": "00cm x 00cm x 00cm",
-    "ubicacion": "Facultad de Artes (UNLP)",
+    "dimensiones": "46cm x 135cm x 36cm",
+    "ubicacion": "Pasillo Calle 61, Planta Baja, Sede Central de la Facultad de Artes (UNLP)",
     "autor": "Manifattura Di Signa",
     "descripcion": [
       "El Fauno Danzante (también denominado Sátiro danzante o Sátiro de los címbalos) es una de las esculturas más célebres de la Galería Uffizi en Florencia, Italia. Realizada en mármol y datada en el siglo I d.C., su autor permanece desconocido. La pieza representa a un fauno (o sátiro) en el instante en que ejecuta un paso de danza, marcando el ritmo con dos instrumentos de percusión: el scabillum, una sandalia de madera provista de piezas metálicas sonoras, y el albogue o címbalo, compuesto por dos discos circulares. Según el investigador Fabricio Paolucci, la obra formaría parte de un grupo escultórico mayor junto a una ninfa sentada, conjunto conocido como la invitación a la danza.",
@@ -25,19 +26,21 @@
   "luchadores": {
     "titulo": "Luchadores",
     "tecnica": "Calco en Terracota",
-    "dimensiones": "00cm x 00cm x 00cm",
-    "ubicacion": "Facultad de Artes (UNLP)",
-    "autor": "Manifattura Di Signa",
+    "dimensiones": "100cm x 70cm x 70cm",
+    "ubicacion": "Pasillo Calle 61, Segundo Piso, Sede Central de la Facultad de Artes (UNLP)",
+    "autor": "Taller de producción desconocido",
     "descripcion": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu sagittis est, et fermentum urna. Sed non luctus nunc.",
-      "Integer in diam sed purus malesuada egestas. Proin vehicula vitae risus a efficitur."
+      "Los Luchadores (también nombrados como Pancraciastas o Pancrastinae) es una escultura griega helenística del siglo III a. C., posiblemente un bronce, conocida a través de una copia romana en mármol que se conserva en la Galería Uffizi en Florencia, Italia.",
+      "Es un grupo escultórico que representa una escena de combate deportivo en la modalidad denominada pancracio. Uno de los luchadores ha conseguido reducir a su oponente, sobre el que está montado a horcajadas, apresando su brazo derecho. El perdedor está casi caído, arrodillado y con la espalda muy inclinada mientras el brazo izquierdo se apoya sobre el suelo, volviendo el rostro hacia ese lado. Las estructuras musculares están exageradamente definidas, marcando un gran esfuerzo físico.",
+      "Las cabezas no son las del grupo original y fueron añadidas tras el descubrimiento de la escultura. El hallazgo de Los luchadores ocurrió a finales de marzo o comienzos de abril de 1583, en una viña perteneciente a la familia Tommasini da Gallese cerca de la Porta San Giovanni de Roma. Francisco I de Médici compró las piezas y pasó a formar parte de la colección en la Villa Medici de Roma. Posteriormente la pieza pasó, junto a la colección Médici, a la parte de su palacio florentino conocida como Galerie degli Uffizi, donde era la principal atracción de la llamada Tribuna de los Uffizi.",
+      "En el Área de Museo, Exposiciones y Conservación del Patrimonio de la Facultad de Artes de la Universidad Nacional de La Plata, la pieza fue reducida a fragmentos debido a un accidente histórico cuya causas se desconocen. En ese sentido, se resguarda una parte de la escultura en terracota, faltando extremidades y partes del cuerpo de ambos personajes. Se estima que el taller productor es Manifattura Di Signa." 
     ]
   },
   "david": {
     "titulo": "Cabeza del David",
     "tecnica": "Calco en Yeso",
     "dimensiones": "120cm x 75cm x 43cm",
-    "ubicacion": "Hall, Planta Baja, Facultad de Artes (UNLP)",
+    "ubicacion": "Hall, Planta Baja, Sede Central de la Facultad de Artes (UNLP)",
     "autor": "Taller de producción desconocido",
     "descripcion": [
       "La pieza original, creada por Miguel Ángel Buonarroti, se encuentra emplazada en la Galería de la Academia de Florencia y constituye uno de los íconos más reconocidos del arte universal. A finales del siglo XIX, en un momento en el que el campo artístico argentino se hallaba en plena conformación, el sistema de calcos de esculturas europeas canónicas se consolidó como una herramienta pedagógica fundamental. Estos calcos no solo contribuían a la educación estética y al perfeccionamiento técnico de los estudiantes, sino que también posibilitaban el acceso a obras que, de otro modo, resultaban inalcanzables.",
@@ -46,25 +49,27 @@
     ]
   },
   "antinoo": {
-    "titulo": "Antinoo",
+    "titulo": "Antinoo Farnesio",
     "tecnica": "Calco en Terracota",
-    "dimensiones": "00cm x 00cm x 00cm",
-    "ubicacion": "Facultad de Artes (UNLP)",
+    "dimensiones": "Dimensiones no calculadas",
+    "ubicacion": "Aula 205. Segundo Piso. Sede Central de la Facultad de Artes (UNLP)",
     "autor": "Manifattura Di Signa",
     "descripcion": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu sagittis est, et fermentum urna. Sed non luctus nunc.",
-      "Integer in diam sed purus malesuada egestas. Proin vehicula vitae risus a efficitur."
+      "El Antínoo Farnesio es una representación escultórica en mármol de Antínoo que fue esculpida entre 130 y 137 d. C. Esta escultura es parte del estilo imperial romano y fue esculpida durante el renacimiento de la cultura griega clásica. Se desconoce el lugar y la procedencia del hallazgo. Actualmente, forma parte de la Colección Farnesio en el Museo Arqueológico Nacional de Nápoles en Italia.",
+      "Antínoo era el amante del emperador romano Adriano, quien tras la muerte del joven, perpetuó la imagen de Antínoo deificándolo como dios del panteón romano e instituyendo su culto formal dentro del imperio romano. Se especula que se ahogó en el río Nilo antes de cumplir veinte años en el año 130 d. C. Las circunstancias de la muerte de Antínoo varían según el relato, aunque las teorías más populares van desde un evento accidental hasta suicidio. En honor, Adriano estableció la ciudad de Antinoópolis en Egipto el mismo año en que Antínoo se ahogó",
+      "En el Área de Museo, Exposiciones y Conservación del Patrimonio de la Facultad de Artes de la Universidad Nacional de La Plata, la pieza en terracota producida por Manifattura Di Signa no se encuentra exhibida por su fragilidad. Se conserva dos fragmentos por separado: por un lado el cuerpo, y por otro, su pierna derecha, su pie izquierdo y la base."
     ]
   },
   "ninoEspina": {
     "titulo": "Niño de la Espina",
     "tecnica": "Calco en Yeso",
-    "dimensiones": "00cm x 00cm x 00cm",
-    "ubicacion": "Facultad de Artes (UNLP)",
+    "dimensiones": "Dimensiones no calculadas",
+    "ubicacion": "Ubicación desconocida",
     "autor": "Taller de producción desconocido",
     "descripcion": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu sagittis est, et fermentum urna. Sed non luctus nunc.",
-      "Integer in diam sed purus malesuada egestas. Proin vehicula vitae risus a efficitur."
+      "El Niño de la espina (también nombrado como Spinario o Fedele) es una estatua de bronce helenística, datada alrededor del siglo I a. C. Actualmente, exhibida en los Museos Capitolinos de Roma. Representa a un muchacho sentado mientras se quita una espina de la planta del pie izquierdo.",
+      "La estatua está documentada en Roma desde el siglo XII y fue donada a la ciudad por Sixto IV en 1471, permaneciendo en el palacio de Letrán. En 1798, Napoleón se apoderó de la estatua y la envió a su museo en París (actualmente el museo del Louvre), donde permaneció hasta 1815. En la actualidad se cree que el niño de la espina capitolino se creó a partir de dos estatuas que se ensamblaron en el siglo I, un cuerpo helenístico y una cabeza posterior, ya que el pelo en lugar de caer sobre el cuello permanece en la posición que correspondería a una estatua que estuviera de pie.",
+      "Si bien esta pieza no se encuentra como parte del acervo del Área de Museo, Exposiciones y Conservación del Patrimonio de la Facultad de Artes de la Universidad Nacional de La Plata, fue parte de la colección de calcos de la Sala de Bellas Artes del Museo General de La Plata (actual Museo de Ciencias Naturales de La Plata) junto al Moisés, Laocoonte y sus hijos, Sófocles, Venus de Milo, entre otros."
     ]
   }
 }
