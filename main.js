@@ -89,12 +89,19 @@ modelViewer.addEventListener('ar-status', (event) => {
 
 window.switchModel = (buttonElement, modelId) => {
     idActual = modelId;
-
     const modelo = modelos[modelId];
+    
     if (modelo && modelViewer) {
-        modelViewer.src = modelo.src;
+        //Genera una URL absoluta
+        const absoluteGlbUrl = new URL(modelo.src, document.baseURI).href;
+        
+        modelViewer.src = absoluteGlbUrl;
         modelViewer.alt = modelo.alt;
-        modelViewer.poster = modelo.poster || '';
+        if(modelo.poster){
+            modelViewer.poster = new URL(modelo.poster, document.baseURI).href;
+        } else {
+            modelViewer.poster = '';
+        }
     }
 
     actualizarInfoPanel(modelId);
