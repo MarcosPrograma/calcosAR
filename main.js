@@ -92,8 +92,13 @@ window.switchModel = (buttonElement, modelId) => {
     const modelo = modelos[modelId];
     
     if (modelo && modelViewer) {
-        //Genera una URL absoluta
-        const absoluteGlbUrl = new URL(modelo.src, document.baseURI).href;
+        const getAbsolutePath = (relativePath) => {
+            if (!relativePath) return '';
+            return new URL(relativePath, document.baseURI).href;
+        };
+
+        //Generar una URL absoluta
+        const absoluteGlbUrl = getAbsolutePath(modelo.src);
         
         modelViewer.src = absoluteGlbUrl;
         modelViewer.alt = modelo.alt;
