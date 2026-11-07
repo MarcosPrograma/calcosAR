@@ -92,15 +92,14 @@ window.switchModel = (buttonElement, modelId) => {
     const modelo = modelos[modelId];
 
     if (modelo && modelViewer) {
-        // Garantiza una URL absoluta válida independientemente de subcarpetas en GitHub Pages
-        const absoluteUrl = new URL(modelo.src, window.location.href).href;
+        // Genera la URL absoluta limpia hacia GitHub Pages
+        const absoluteUrl = new URL(modelo.src, window.location.origin + window.location.pathname).href;
 
-        // Asignación directa
         modelViewer.src = absoluteUrl;
         modelViewer.alt = modelo.alt;
 
         if (modelo.poster) {
-            modelViewer.poster = new URL(modelo.poster, window.location.href).href;
+            modelViewer.poster = new URL(modelo.poster, window.location.origin + window.location.pathname).href;
         }
     }
 
