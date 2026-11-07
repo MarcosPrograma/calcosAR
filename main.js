@@ -90,22 +90,17 @@ modelViewer.addEventListener('ar-status', (event) => {
 window.switchModel = (buttonElement, modelId) => {
     idActual = modelId;
     const modelo = modelos[modelId];
-    
-    if (modelo && modelViewer) {
-        const getAbsolutePath = (relativePath) => {
-            if (!relativePath) return '';
-            return new URL(relativePath, document.baseURI).href;
-        };
 
-        //Generar una URL absoluta
-        const absoluteGlbUrl = getAbsolutePath(modelo.src);
-        
-        modelViewer.src = absoluteGlbUrl;
+    if (modelo && modelViewer) {
+        // Garantiza una URL absoluta válida independientemente de subcarpetas en GitHub Pages
+        const absoluteUrl = new URL(modelo.src, window.location.href).href;
+
+        // Asignación directa
+        modelViewer.src = absoluteUrl;
         modelViewer.alt = modelo.alt;
-        if(modelo.poster){
-            modelViewer.poster = new URL(modelo.poster, document.baseURI).href;
-        } else {
-            modelViewer.poster = '';
+
+        if (modelo.poster) {
+            modelViewer.poster = new URL(modelo.poster, window.location.href).href;
         }
     }
 
