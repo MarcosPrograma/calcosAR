@@ -49,14 +49,12 @@ model-viewer {
     height: 3rem;
     border-radius: 50%;
     border: 3px solid;
-    border-color: rgba(255, 255, 255, 0.15);
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    border-color: #1b1b1b;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 #info-button img {
@@ -78,14 +76,13 @@ model-viewer {
     box-sizing: border-box;
     cursor: pointer;
     font-family: "Barlow", sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    border-radius: 8px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 100px;
     border: 3px solid;
-    border-color: rgba(255, 255, 255, 0.15);
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(8px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-color: #e3e3e3;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4);
 }
 
 .slider {

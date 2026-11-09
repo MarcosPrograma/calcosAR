@@ -1,10 +1,10 @@
 const modelViewer = document.querySelector('#visor-ar');
 
 const modelos = {
-    'efebo': {
-        src: 'assets/efebo.glb',
-        alt: 'Efebo de subiaco',
-        poster: 'assets/poster-efebo.webp'
+    'david': {
+        src: 'assets/david.glb',
+        alt: 'David',
+        poster: ''
     },
     'fauno': {
         src: 'assets/fauno.glb',
@@ -16,10 +16,10 @@ const modelos = {
         alt: 'Luchadores',
         poster: 'assets/poster-luchadores.webp'
     },
-    'david': {
-        src: 'assets/david.glb',
-        alt: 'David',
-        poster: ''
+    'efebo': {
+        src: 'assets/efebo.glb',
+        alt: 'Efebo de subiaco',
+        poster: 'assets/poster-efebo.webp'
     },
     'antinoo': {
         src: 'assets/antinoo.glb',
@@ -34,7 +34,7 @@ const modelos = {
 };
 
 let calcosData = {};
-let idActual = 'efebo';
+let idActual = 'david';
 
 async function cargarCalcosData() {
     try {
