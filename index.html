@@ -4,41 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Calcos en Realidad Aumentada</title>
-    <link rel="stylesheet" href="style.css" />
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <title>Polifonía de Venus</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="src/favicon.ico">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 
 <body>
-    <model-viewer id="visor-ar" alt="David" src="assets/david.glb" ar
-        ar-modes="webxr quick-look scene-viewer" ar-placement="floor" ar-scale="fixed" ar-status="not-presenting"
-        interaction-prompt="auto" shadow-intensity="1" camera-controls disable-pan skybox-height="2m" disable-zoom
-        min-camera-orbit="auto 90deg auto" max-camera-orbit="auto 90deg auto" touch-action="none" bounds="tight">
-
+    <model-viewer id="visor-ar" alt="Venus de Capua en estado original" src="assets/venus_1.glb" ar
+        ar-modes="webxr quick-look scene-viewer " ar-placement="floor" ar-scale="fixed" ar-status="not-presenting"
+        interaction-prompt="auto" shadow-intensity="1" camera-controls skybox-height="2m" disable-pan disable-zoom
+        auto-rotate min-camera-orbit="auto 90deg auto" max-camera-orbit="auto 90deg auto" touch-action="none"
+        bounds="tight">
         <div class="slider">
             <div class="slides">
-                <button class="slide selected" onclick="switchModel(this, 'david')"
-                    style="background-image: url('assets/thumb-david.webp');"></button>
-                <button class="slide" onclick="switchModel(this, 'fauno')"
-                    style="background-image: url('assets/thumb-fauno.webp');"></button>
-                <button class="slide" onclick="switchModel(this, 'luchadores')"
-                    style="background-image: url('assets/thumb-luchadores.webp');"></button>
-                <button class="slide" onclick="switchModel(this, 'efebo')"
-                    style="background-image: url('assets/thumb-efebo.webp');"></button>
-                <button class="slide" onclick="switchModel(this, 'antinoo')"
-                    style="background-image: url('assets/thumb-antinoo.webp');"></button>
-                <button class="slide" onclick="switchModel(this, 'ninoEspina')"
-                    style="background-image: url('assets/thumb-ninoEspina.webp');"></button>
+                <button class="slide selected" onclick="switchModel(this, 'venus_1')">Original</button>
+                <button class="slide" onclick="switchModel(this, 'venus_2')">Reconstrucción</button>
+                <button class="slide" onclick="switchModel(this, 'venus_3')">Discordia</button>
+                <button class="slide" onclick="switchModel(this, 'venus_4')">Amor y Guerra</button>
+                <button class="slide" onclick="switchModel(this, 'venus_5')">Música</button>
             </div>
         </div>
         <button slot="ar-button" id="ar-button" class="btn">
-            <svg class="ar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="24" height="24"
-                fill="currentColor">
-                <path
-                    d="M480-120 200-272v-240L80-576v240l280 152 120-65.5V-120Zm40 0 v-129.5l120 65.5 280-152v-240L840-512v240L520-120ZM480-520l276-150-276-150-276 150 276 150Zm0 80L200-590l280-152 280 152-280 150Z" />
-            </svg>
+            <img src="src/ar.svg" class="ar-icon">
             <span>Ver en Realidad Aumentada</span>
         </button>
     </model-viewer>
