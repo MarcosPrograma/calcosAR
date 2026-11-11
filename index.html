@@ -4,26 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
-    <title>Polifonía de Venus</title>
-    <link rel="stylesheet" href="style.css">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Calcos en Realidad Aumentada</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="src/favicon.ico">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 
 <body>
-    <model-viewer id="visor-ar" alt="Venus de Capua en estado original" src="assets/venus_1.glb" ar
-        ar-modes="webxr quick-look scene-viewer " ar-placement="floor" ar-scale="fixed" ar-status="not-presenting"
-        interaction-prompt="auto" shadow-intensity="1" camera-controls skybox-height="2m" disable-pan disable-zoom
-        auto-rotate min-camera-orbit="auto 90deg auto" max-camera-orbit="auto 90deg auto" touch-action="none"
-        bounds="tight">
+    <model-viewer id="visor-ar" alt="David" src="assets/david.glb" ar
+        ar-modes="webxr quick-look scene-viewer" ar-placement="floor" ar-scale="fixed" ar-status="not-presenting"
+        interaction-prompt="auto" shadow-intensity="1" camera-controls disable-pan skybox-height="2m" disable-zoom
+        min-camera-orbit="auto 90deg auto" max-camera-orbit="auto 90deg auto" touch-action="none" bounds="tight">
+
         <div class="slider">
             <div class="slides">
-                <button class="slide selected" onclick="switchModel(this, 'venus_1')">Original</button>
-                <button class="slide" onclick="switchModel(this, 'venus_2')">Reconstrucción</button>
-                <button class="slide" onclick="switchModel(this, 'venus_3')">Discordia</button>
-                <button class="slide" onclick="switchModel(this, 'venus_4')">Amor y Guerra</button>
-                <button class="slide" onclick="switchModel(this, 'venus_5')">Música</button>
+                <button class="slide selected" onclick="switchModel(this, 'david')"
+                    style="background-image: url('assets/thumb-david.webp');"></button>
+                <button class="slide" onclick="switchModel(this, 'fauno')"
+                    style="background-image: url('assets/thumb-fauno.webp');"></button>
+                <button class="slide" onclick="switchModel(this, 'luchadores')"
+                    style="background-image: url('assets/thumb-luchadores.webp');"></button>
+                <button class="slide" onclick="switchModel(this, 'efebo')"
+                    style="background-image: url('assets/thumb-efebo.webp');"></button>
+                <button class="slide" onclick="switchModel(this, 'antinoo')"
+                    style="background-image: url('assets/thumb-antinoo.webp');"></button>
+                <button class="slide" onclick="switchModel(this, 'ninoEspina')"
+                    style="background-image: url('assets/thumb-ninoEspina.webp');"></button>
             </div>
         </div>
         <button slot="ar-button" id="ar-button" class="btn">
